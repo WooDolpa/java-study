@@ -1,4 +1,4 @@
-package fastcampus.ch12;
+package fastcampus.chapter02.ch12;
 
 /**
  * packageName : fastcampus.ch12

@@ -1,4 +1,4 @@
-package fastcampus.ch24;
+package fastcampus.chapter02.ch24;
 
 import java.util.ArrayList;
 
