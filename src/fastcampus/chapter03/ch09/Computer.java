@@ -1,0 +1,21 @@
+package fastcampus.chapter03.ch09;
+
+/**
+ * packageName : fastcampus.chapter03.ch09
+ * className : Computer
+ * user : jwlee
+ * date : 2022/10/18
+ */
+public abstract class Computer {
+
+    public abstract void display();
+    public abstract void typing();
+
+    public void turnOn() {
+        System.out.println("전원을 켭니다.");
+    }
+
+    public void turnOff(){
+        System.out.println("전원을 끕니다.");
+    }
+}
