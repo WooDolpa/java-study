@@ -28,7 +28,7 @@ public class UserInfoClient {
         String dbType = prop.getProperty("DBTYPE");
 
         UserInfo userInfo = new UserInfo();
-        userInfo.setUserId("12345");
+        userInfo.setUserId("123456");
         userInfo.setUserName("Lee");
         userInfo.setPassword("!@#$%");
 
