@@ -9,12 +9,12 @@ package fastcampus.chapter03.ch16;
 public class AdvancedLevel implements PlayerLevel{
     @Override
     public void run() {
-        System.out.println("천천히 달립니다.");
+        System.out.println("빨리 달립니다.");
     }
 
     @Override
     public void jump() {
-        System.out.println("jump 못하지롱");
+        System.out.println("높이 jump 합니다.");
     }
 
     @Override
