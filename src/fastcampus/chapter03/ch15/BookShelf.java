@@ -1,0 +1,26 @@
+package fastcampus.chapter03.ch15;
+
+/**
+ * packageName : fastcampus.chapter03.ch15
+ * className : BookShelf
+ * user : jwlee
+ * date : 2022/11/02
+ */
+public class BookShelf extends Shelf implements Queue{
+
+    @Override
+    public void enQueue(String title) {
+        shelf.add(title);
+    }
+
+    @Override
+    public String deQueue() {
+        return shelf.remove(0);
+    }
+
+    @Override
+    public int getSize() {
+        return getCount();
+    }
+
+}
