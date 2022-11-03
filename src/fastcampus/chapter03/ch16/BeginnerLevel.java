@@ -25,6 +25,6 @@ public class BeginnerLevel implements PlayerLevel{
 
     @Override
     public void showLevelMessage() {
-
+        System.out.println("1111");
     }
 }
