@@ -16,8 +16,10 @@ public interface PlayerLevel {
     public void showLevelMessage();
 
     default void go(int count) {
-        IntStream.rangeClosed(0, 1).forEach( i -> {
-
-        });
+        run();
+        for (int i=0; i<count; i++){
+            jump();
+        }
+        turn();
     }
 }

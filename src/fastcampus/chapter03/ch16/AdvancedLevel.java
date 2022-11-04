@@ -24,6 +24,5 @@ public class AdvancedLevel implements PlayerLevel{
 
     @Override
     public void showLevelMessage() {
-        System.out.println("2222");
     }
 }
