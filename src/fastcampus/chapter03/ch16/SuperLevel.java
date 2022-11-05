@@ -4,25 +4,24 @@ package fastcampus.chapter03.ch16;
  * packageName : fastcampus.chapter03.ch16
  * className : SuperLevel
  * user : jwlee
- * date : 2022/10/28
+ * date : 2022/11/05
  */
-public class SuperLevel implements PlayerLevel{
+public class SuperLevel extends PlayerLevel{
+
     @Override
-    public void run() {
-        System.out.println("엄청 빠르게 달립니다.");
+    void run() {
     }
 
     @Override
-    public void jump() {
-        System.out.println("아주 높이 jump 합니다.");
+    void jump() {
     }
 
     @Override
-    public void turn() {
-        System.out.println("turn 합니다.");
+    void turn() {
     }
 
     @Override
-    public void showLevelMessage() {
+    void showLevelMessage() {
     }
+
 }

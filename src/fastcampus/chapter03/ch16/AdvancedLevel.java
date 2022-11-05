@@ -4,25 +4,24 @@ package fastcampus.chapter03.ch16;
  * packageName : fastcampus.chapter03.ch16
  * className : AdvancedLevel
  * user : jwlee
- * date : 2022/10/28
+ * date : 2022/11/05
  */
-public class AdvancedLevel implements PlayerLevel{
+public class AdvancedLevel extends PlayerLevel{
+
     @Override
-    public void run() {
-        System.out.println("빨리 달립니다.");
+    void run() {
     }
 
     @Override
-    public void jump() {
-        System.out.println("높이 jump 합니다.");
+    void jump() {
     }
 
     @Override
-    public void turn() {
-        System.out.println("turn 못하지롱");
+    void turn() {
     }
 
     @Override
-    public void showLevelMessage() {
+    void showLevelMessage() {
     }
+
 }
