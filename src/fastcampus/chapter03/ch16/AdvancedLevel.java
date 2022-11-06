@@ -22,6 +22,7 @@ public class AdvancedLevel extends PlayerLevel{
 
     @Override
     void showLevelMessage() {
+        System.out.println("****** 중급자 레벨입니다. ******");
     }
 
 }

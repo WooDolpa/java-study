@@ -22,6 +22,7 @@ public class SuperLevel extends PlayerLevel{
 
     @Override
     void showLevelMessage() {
+        System.out.println("****** 고급자 레벨입니다. ******");
     }
 
 }
