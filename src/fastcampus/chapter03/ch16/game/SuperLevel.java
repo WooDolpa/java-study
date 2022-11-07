@@ -1,4 +1,4 @@
-package fastcampus.chapter03.ch16;
+package fastcampus.chapter03.ch16.game;
 
 /**
  * packageName : fastcampus.chapter03.ch16
