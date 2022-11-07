@@ -8,10 +8,16 @@ package fastcampus.chapter03.ch16;
  */
 public abstract class PlayerLevel {
 
-    void run() {}
-    void jump() {}
-    void turn() {}
-    void showLevelMessage(){}
-    void go(int count) {}
+    public abstract void run();
+    public abstract void jump();
+    public abstract void turn();
+    public abstract void showLevelMessage();
+    void go(int count) {
+        run();
+        for (int i=0; i<count; i++) {
+            jump();
+        }
+        turn();
+    }
 
 }
